@@ -1,0 +1,304 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>DICVICZ NIGERIA L.T.D</title>
+    <style>
+                   *{    
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+              }
+        body{
+            font-family: 'poppins', sans-serif;
+            background: black;
+        }
+        .logo{
+            color: rgb(53, 0, 245);
+            font-size: 35px;
+            font-family: Arial;
+            padding-left: 20px;
+            float: laft;
+            padding-top: 10px;
+        }
+        .navbar{
+            display: flex;
+            align-items: center;
+            padding:a 20px;
+        }
+        nav{
+            flex: 1;
+            text-align: right;
+        }
+        nav ul{
+            display: inline-block;
+            list-style-type: none;
+        }
+        nav ul li{
+            display: inline-block;
+            margin-right: 20px;
+        
+        }
+        nav ul li{
+            display: inline-block;
+            margin-right: 20px;
+        }
+        a{
+            text-decoration: none;
+            color: #555;
+        }
+        li{
+            color: rgb(255, 255, 255);
+            display: inline;
+            font-size: 20px;
+            padding-right: 40px;
+        }
+        p{
+            color: rgb(245, 243, 243);
+        }
+        .container{
+            max-width: 1300px;
+            margin: auto;
+            padding-left: 25px;
+            padding-right: 25px;
+        } 
+        .row{
+            display: flex;
+            align-items: center;
+            flex-wrap: wrap;
+            justify-content: space-around;
+        }
+        .content h1{
+            font-family: 'Times New Roman';
+            font-size: 50px;
+            padding-left: 20px;
+            margin-top: 9%;
+            letter-spacing: 2px;
+            color: rgb(243, 243, 243);
+        }
+        .content .par{
+            padding-left: 20px;
+            padding-bottom: 25px;
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+            letter-spacing: 1.2px;
+            line-height: 30px;
+            color: rgb(0, 250, 104);
+        }
+        .col-2 h1{
+            font-size: 50px;
+            line-height: 60px;
+            margin: 25px 0;
+        }
+        .btn{
+            display: inline-block;
+            background: rgb(235, 0, 0);
+            color: rgb(255, 255, 254);
+            padding: 8px 30px;
+            margin: 30px;
+            border-radius: 30px;
+            transition: backgroun0.5s;
+        }
+        .btn:hover{
+            background: #563434;
+        }
+        .header{
+            background: url("C:/Users/LENOVO X1 CARBON/OneDrive/Desktop/image/pexels-photo-561463.jpeg");
+        }
+        .header .row{
+            margin-top: 70px;
+        }
+        .categories{
+            margin: 70px 0;
+        }
+        .small-container{
+            max-width: 1080px;
+            margin: autho;
+            padding-left: 25px;
+            padding-right: 25px;
+        }
+        .title{
+            text-align: center;
+            margin: 0 auto 80px;
+            position: relative;
+            line-height: 60px;
+            color: rgb(255, 255, 255);
+        }
+        .title::after{
+             content: '';
+             background: rgb(248, 2, 2);
+             width: 80px;
+             height: 5px;
+             border-radius: 5px;
+             position: absolute;
+             bottom: 0;
+             left: 50%;
+             transform: translateX(-50%);
+        }
+        .about{
+            display: grid;
+            grid-template-columns: repeat(auto-fit);
+            gap: 2rem;
+        }
+        .about-img img{
+            border-radius: 3rem 0 3rem 3rem;
+            width: 500px;
+            height: 300px;
+            
+        
+        }
+        .about-text span{
+            font-size: 1rem;
+            text-transform: uppercase;
+            font-weight: 500px;
+            color: rgb(255, 0, 0);
+        }
+        p{
+            color: rgb(238, 238, 238);
+            font-family: 'Times New Roman';
+        }
+        .about-text h2{
+            font-family: 'Times New Roman';
+            font-size: 30px;
+            margin-top: 6%;
+            color: white;
+            letter-spacing: 2px;
+        }
+        .about-text p{
+            font-size: 0.938rem;
+            margin: 1rem 0 1rem;
+        }
+        .sales{
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(240px, auto));
+            gap: 2.5rem;
+        }
+        .sales .box{
+            padding: 20px;
+            background: rgb(0, 0, 0);
+            box-shadow: var(--box-shadow);
+            text-align: center;
+            border-radius: 2rem;
+        }
+        .sales .box:hover{
+            background: white;
+            color: blue;
+            transition: 0.1s all linear;
+
+        }
+        .sales .box .bx{
+            padding: 10px;
+            border-radius: 50px;
+            background: white;
+            color: rgb(0, 0, 0);
+            font-size: 20px;
+        }
+        .sales .box h3{
+         font-size: 1.1rem;
+         margin: 1rem 0 0.4rem;
+         color: white;
+        }
+        .sales .box p{
+           font-size: 00.938rem;
+           color: white;
+        }
+        h4{
+            color: black;
+            font-family: 'Times New Roman';
+            font-size: 40px;
+            background-color: yellow;
+            width: 300px;
+            padding: 2px;
+            border-radius: 40px;
+            margin-top: 30px;
+        }
+    </style>
+  
+</head>
+<body>
+    <div class="header">
+        <div class="container">
+            <div class="navbar">
+                <div class="logo">
+                    <img src="C:\Users\LENOVO X1 CARBON\OneDrive\Desktop\image\dicvicsss.jpg" width="240px" height="200px">
+                </div>
+                  <nav>
+                        <ul>
+                        <li><a href="cssDicvicz.html">HOME</a></li>
+                        <li><a href="about.html">ABOUT</a></li>
+                        <li><a href="conn.html">CONTACT</a></li>
+                 </ul>
+               </nav>
+               <div class="search">
+                    <input class="srch" type="search" name="" placeholder="Type to text">
+                    <a href="#"><button class="btn">search</button></a>
+               </div>
+            </div>
+            <div class="content">
+                <div class="col.2">
+                    <h1>DICVICZ NIGERIA LIMITED <br> <span>ESTATE DEVELOPERS</span></h1>
+                    <P> We deal on Estate development, estate management,land speculator & property agent!.. <br>
+                       <a href="#" class="btn">Learn More</a>
+                    </P>
+                    
+                </div>
+
+            </div>
+        </div>
+
+    </div>
+
+     <!-------------- About ------------->
+     <h2 class="title">About</h2>
+     <div class="content">
+     <div class="small container">
+     <section class="about container" id="about">
+         <div class="about-img">
+                <img src="C:\Users\LENOVO X1 CARBON\OneDrive\Desktop\image\Meridian-Homes_Double-Story_Cadence-2-1.jpg">
+                <img src="C:\Users\LENOVO X1 CARBON\OneDrive\Desktop\image\5-bedroom-bungalow3-850x550.jpg">
+         </div>
+               <div class="about-text">
+                   <span>Leran More</span>
+                   <h2>We Provide the Best <br>Property For You !</h2>
+                   <p class="par">We deal on estate development,estate management,<br> land speculator, property agent and more </p>
+               </div>
+               <div class="about-img">
+                    <img src="C:\Users\LENOVO X1 CARBON\OneDrive\Desktop\image\1505798482_thmb.jpg">
+                    <img src="C:\Users\LENOVO X1 CARBON\OneDrive\Desktop\image\land-for-sale.jpg">
+                    <h4>Lands For Sale!</h4>
+                    <p class="par">We have different plots of land for you at a <br> very good rate from 1.600,000 Naira and  above </p>
+                </div>
+
+        </section>
+    </div>
+    </div>
+    <!--------- Sales------------>
+    <section  class="sales container" id="sales">
+        <!----- Box 1------>
+        <div class="box">
+            <i class='bx bx-user'></i>
+            <h3>Make Your Dream True</h3>
+            <p> We make your dream come true by <br> giving you the best of your choice</p>
+
+        </div>
+         <!----- Box 2------>
+        <div class="box">
+                <i class='bx bx-user'></i>
+                <h3>Your New Home</h3>
+                <p> We sell a good and quality <br> home for you at the best <br> rates of price, just follow up and place your order  </p>
+    
+            </div>
+              <!----- Box 1------>
+        <div class="box">
+                <i class='bx bx-user'></i>
+                <h3>Landed Property</h3>
+                <p> We sell legitimate properties and we also buy at a <br> good rate, just follow up and place your order </p>
+    
+            </div>
+    </section>
+    
+     
+</body>
+</html>
